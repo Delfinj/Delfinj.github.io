@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/landingstyle.css" />
+  </head>
+  <body>
+    
+
+<section class="showcase">
+  <header>
+    <h1 class="text-success m-0 logo"><i class="fa fa-utensils me-3"></i>Vegerant</h1>
+    <div class="toggle"></div>
+  </header>
+
+  <video src="./assets/img/Saladbar1.mp4" muted loop autoplay></video>
+
+<div class="overlay"></div>
+<div class="text">
+  <h2>Eat</h2>
+  <h3>Green</h3>
+  <p>Some of the most nutritious greens include spinach, kale, romaine, watercress, and arugula (see "Salad greens by the numbers"). They are rich in a combination of vitamins A, C, and K; several B vitamins (including folate); and potassium. But some greens aren't nutrient powerhouses.</p>
+  <a href="main.html">Eat like a King and Queen</a>
+</div>
+
+<ul class="social">
+ <li> <a href="" class="btn btn-outline-light btn-social"><i class="fab fa-twitter"></i></a></li>
+ <li><a href="" class="btn btn-outline-light btn-social"><i class="fab fa-facebook-f"></i></a> </li>
+  <li><a href="" class="btn btn-outline-light btn-social"><i class="fab fa-youtube"></i></a> </li>
+    <li><a href="" class="btn btn-outline-light btn-social"><i class="fab fa-linkedin-in"></i></a> </li>
+
+</ul>
+</section>
+
+<div class="menu">
+  <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">News</a></li>
+    <li><a href="">Book A Table</a></li>
+    <li><a href="">COntact</a></li>
+    
+  </ul>
+</div>
+
+
+<script>
+  const menuToggle = document.querySelector('.toggle')
+  const showcase = document.querySelector('.showcase')
+
+  menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active')
+    showcase.classList.toggle('active')
+  })
+</script>
+
+  
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap 5 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
